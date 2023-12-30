@@ -8,5 +8,5 @@ int main()
     da=(40*b_salary)/100;
     hra=(20*b_salary)/100;
     g_salary=b_salary+da+hra;
-    printf("The gross salary= %f",g_salary);
+    printf("The gross salary= Rs.%f",g_salary);
 }
