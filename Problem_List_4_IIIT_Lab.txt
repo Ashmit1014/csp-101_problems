@@ -1,0 +1,727 @@
+Write C programs for the following:
+
+1. Say Hello to World.
+
+2. Calculate simple interest
+
+3. Ramesh’s basic salary is input through the keyboard. His dearness allowance is 40% of basic salary, and house rent allowance is 20% of basic salary. Write a program to calculate his gross salary.
+
+4. The distance between two cities (in km.) is input through the keyboard. Write a program to convert and print this distance in meters, feet, inches and centimeters.
+
+5. If the marks obtained by a student in five different subjects are input through the keyboard, find out the aggregate marks and percentage marks obtained by the student. Assume that the maximum marks that can be obtained by a student in each subject is 100.
+
+6. Temperature of a city in Fahrenheit degrees is input through the keyboard. Write a program to convert this temperature into Centigrade degrees.
+
+7. The length & breadth of a rectangle and radius of a circle are input through the keyboard. Write a program to calculate the area & perimeter of the rectangle, and the area & circumference of the circle.
+
+8. Two numbers are input through the keyboard into two locations C and D. Write a program to interchange the contents of C and D.
+
+9. If a five-digit number is input through the keyboard, write a program to calculate the sum of its digits. (Hint: Use the modulus operator ‘%’)
+
+10.If a five-digit number is input through the keyboard, write a program to reverse the number.
+
+11.If a four-digit number is input through the keyboard, write a program to obtain the sum of the first and last digit of this number.
+
+12.In a town, the percentage of men is 52. The percentage of total literacy is 48. If total percentage of literate men is 35 of the total population, write a program to find the total number of illiterate men and women if the population of the town is 80,000.
+
+13.A cashier has currency notes of denominations 10, 50 and 100. If the amount to be withdrawn is input through the keyboard in hundreds, find the total number of currency notes of each denomination the cashier will have to give to the withdrawer.
+
+14.If the total selling price of 15 items and the total profit earned on them is input through the keyboard, write a program to find the cost price of one item.
+
+15.If a five-digit number is input through the keyboard, write a program to print a new number by adding one to each of its digits. For example if the number that is input is 12391 then the output should be displayed as 23402.
+
+16.Write a program to round off an integer i to the next largest multiple of another integer j . For example, 256 days when rounded off to the next largest multiple divisible by a week results into 259.
+
+17.Two variables a and b contain values 10 and 20. Write a program to interchange the ontents of a and b without using a third variable.
+
+18.Write a program to find out how many days and how many weeks have passed between the dates 01/01/92 to 31/05/92. Also find out how many days could not get evened out into weeks. 
+
+*19.Write a program to show bits of integer. ex. for input 2 output will be 0000000000000010 and for -1 1111111111111111.
+
+*20.The information about colors is to be stored in bits of a char variable called color. The bit number 0 to 6, each represent 7 colors of a rainbow, i.e. bit 0 represents violet, 1 represents indigo, and so on as given below. Write a program that asks the user to enter a number and based on this number it reports which colors in the rainbow does the number represents.
+
+ Red	Orange	Yellow	Green	Blue	Indigo	Violet
+
+*21. In an inter-college competition, various sports and games are played between different colleges like cricket, basketball, football, hockey, lawn tennis, table tennis, carom and chess. The information regarding the games won by a particular college is stored in bit numbers 0, 1, 2, 3, 4, 5, 6, 7 respectively of an integer variable called game. The college that wins in 5 or more than 5 games is awarded the Champion of Champions trophy. If a number is entered through the keyboard, then write a program to find out whether the college won the Champion of the Champions trophy or not.
+
+*22. The time field in the directory entry is 2 bytes long. Distribution of different bits which account for hours, minutes and seconds is given below. Write a program which would receive the two-byte time entry in form of number and print the hours, minutes and seconds.
+          H H H H H M M M M M M S S S S S
+
+23. If cost price and selling price of an item is input through the keyboard, write a program to determine whether the seller has made profit or incurred loss. Also determine how much profit he made or loss he incurred.
+
+24. Any integer is input through the keyboard. Write a program to find out whether it is an odd number or even number.
+
+25. Any year is input through the keyboard. Write a program to determine whether the year is a leap year or not. 
+
+26. According to the Gregorian calendar, it was Monday on the date 01/01/1900. If any year is input through the keyboard write a program to find out what is the day on 1st January of this year.
+
+27. Write a program to find the greatest of the three numbers entered through the keyboard.
+
+28. A five-digit number is entered through the keyboard. Write a program to obtain the reversed number and to determine whether the original and reversed numbers are equal or not.
+
+29. If the ages of Ram, Shyam and Ajay are input through the keyboard, write a program to determine the youngest of the three.
+
+30. Write a program to check whether a triangle is valid or not, when the three angles of the triangle are entered through the keyboard. A triangle is valid if the sum of all the three angles is equal to 180 degrees.
+
+31. Find the absolute value of a number entered through the keyboard.Like if value is -12.32 abs value is 12.32 and if value is -9 abs value is 9.
+ 
+32. Given the length and breadth of a rectangle, write a program to find whether the area of the rectangle is greater than its perimeter. For example, the area of the rectangle with length = 5 and breadth = 4 is greater than its perimeter.
+
+33. Given three points (x1, y1), (x2, y2) and (x3, y3), write a program to check if all the three points fall on one straight line. 
+y = mx + C here m is slope and can be calculated (Change in Y) / (Change in X).
+
+34. Given the coordinates (x, y) of a center of a circle and it’s radius,write a program which will determine whether a point lies inside
+the circle, on the circle or outside the circle. (Hint: Use sqrt( ) and pow( ) functions) 
+
+35. Given a point (x, y), write a program to find out if it lies on the x-axis, y-axis or at the origin, viz. (0, 0). 
+  
+36. Any year is entered through the keyboard, write a program to determine whether the year is leap or not. Use the logical
+operators && and ||.
+
+37. Any character is entered through the keyboard, write a program to determine whether the character entered is a capital letter, a small case letter, a digit or a special symbol.
+
+The following table shows the range of ASCII values for various characters.
+
+Characters ASCII Values
+A – Z 65 – 90
+a – z 97 – 122
+0 – 9 48 – 57
+
+special symbols
+0 - 47, 58 - 64, 91 - 96, 123 - 127
+
+you can also use ASCII chart in Let us c book.
+
+38. An Insurance company follows following rules to calculate premium.
+(1) If a person’s health is excellent and the person is between 25 and 35 years of age and lives in a city and is a male then the premium is Rs. 4 per thousand and his policy amount cannot exceed Rs. 2 lakhs.
+(2) If a person satisfies all the above conditions except that the sex is female then the premium is Rs. 3 per thousand and her policy amount cannot exceed Rs. 1 lakh.
+(3) If a person’s health is poor and the person is between 25 and 35 years of age and lives in a village and is a male then the premium is Rs. 6 per thousand and his policy cannot exceed Rs. 10,000.
+(4) In all other cases the person is not insured.
+
+
+Write a program to output whether the person should be insured or not, his/her premium rate and maximum amount for which he/she can be insured.
+
+39. A certain grade of steel is graded according to the following conditions:
+(i) Hardness must be greater than 50
+(ii) Carbon content must be less than 0.7
+(iii) Tensile strength must be greater than 5600
+
+The grades are as follows:
+Grade is 10 if all three conditions are met
+Grade is 9 if conditions (i) and (ii) are met
+Grade is 8 if conditions (ii) and (iii) are met
+Grade is 7 if conditions (i) and (iii) are met
+Grade is 6 if only one condition is met
+Grade is 5 if none of the conditions are met
+
+Write a program, which will require the user to give values of hardness, carbon content and tensile strength of the steel
+under consideration and output the grade of the steel.
+
+40. A library charges a fine for every book returned late. For first 5 days the fine is 50 paise per day, for 6-10 days fine is one rupee per day and
+above 10 days fine is 5 rupees per day. If you return the book after 30 days your membership will be cancelled. Write a program to accept the number of days the member is late to return the book and display the fine or the appropriate message.
+
+41. If the three sides of a triangle are entered through the keyboard, write a program to check whether the triangle is valid or not. The triangle is valid if the sum of two sides is greater than the largest of the three sides. 
+
+42. If the three sides of a triangle are entered through the keyboard, write a program to check whether the triangle is isosceles, equilateral, scalene or right angled triangle.
+
+43. In a company, worker efficiency is determined on the basis of the time required for a worker to complete a particular job. If
+the time taken by the worker is between 2 – 3 hours, then the worker is said to be highly efficient. If the time required by the worker is between 3 – 4 hours, then the worker is ordered to improve speed. If the time taken is between 4 – 5 hours, the worker is given training to improve his speed, and if the time taken by the worker is more than 5 hours, then the worker has to leave the company. If the time taken by the worker is input through the keyboard, find the efficiency of the worker.
+
+44. A university has the following rules for a student to qualify for a degree with A as the main subject and B as the subsidiary subject:
+(a) He should get 55 percent or more in A and 45 percent or more in B.
+(b) If he gets less than 55 percent in A he should get 55 percent or more in B. However, he should get at least 45 percent in A.
+(c) If he gets less than 45 percent in B and 65 percent or more in A he is allowed to reappear in an examination in B to qualify.
+(d) In all other cases he is declared to have failed.
+
+Write a program to receive marks in A and B and Output whether the student has passed, failed or is allowed to reappear in B.
+
+45. The policy followed by a company to process customer orders is given by the following rules:
+(a) If a customer order is less than or equal to that in stock and has credit is OK, supply has requirement.
+(b) If has credit is not OK do not supply. Send him intimation.
+(c) If has credit is Ok but the item in stock is less than has order, supply what is in stock. Intimate to him data the balance will be shipped.
+
+Write a C program to implement the company policy.
+
+46. Using conditional operators determine:
+(1) Whether the character entered through the keyboard is a lower case alphabet                                     or not.
+(2) Whether a character entered through the keyboard is a special symbol or not.
+  
+47. Write a program using conditional operators to determine whether a year entered through the keyboard is a leap year or
+not.
+
+48. Write a program to find the greatest of the three numbers entered through the keyboard using conditional operators.
+
+49. write a program to decide division of a student as following rules.
+(1) There are 5 paper in each semester
+(2) Maximum marks may vary for each paper
+(3) if below then 40% for any two paper result is fail.
+(4) if below then 40% for any paper result paper due.
+(5) if total % below 33% result fail.
+(6) if total % between 33% to 45% result third division.
+(7) if total % between 45% to 60% result second division.
+(8) if total % between 60% to 70% result first division.
+(9) if total % above 70% result PASS WITH HONS.  
+
+50. A number is entered through the keyboard. The number may contain 1,2,3,4, or 5 digits. Write a program to find the number of digits in the number.
+
+51. Write a program to calculate overtime pay of 10 employees. Overtime is paid at the rate of Rs. 12.00 per hour for every hour worked above 40 hours. Assume that employees do not work for fractional part of an hour.
+
+52. Write a program to find the factorial value of any number entered through the keyboard.
+
+53. Two numbers are entered through the keyboard. Write a program to find the value of one number raised to the power of another.
+
+54. Write a program to print all the ASCII values and their equivalent characters using a while loop. The ASCII values vary from 0 to 255.
+
+55. Write a program to print all the ASCII values and their equivalent characters using a for loop. The ASCII values vary from 0 to 255.
+
+56. Write a program to print out all Armstrong numbers between 1 and 500. If sum of cubes of each digit of the number is equal to the number itself, then the number is called an Armstrong number. For example, 153 = ( 1 * 1 * 1 ) + ( 5 * 5 * 5 ) + ( 3 * 3 * 3 )
+
+*57. Write a program for a matchstick game being played between the computer and a user. Your program should ensure that the computer always wins. Rules for the game are as follows:
+    - There are 21 matchsticks.
+    - The computer asks the player to pick 1, 2, 3, or 4 matchsticks.
+    - After the person picks, the computer does its picking.
+    - Whoever is forced to pick up the last matchstick loses the game.
+
+58. Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered.
+
+59. Write a program to find the octal equivalent of the entered decimal number.
+
+60. write a program to find the range of a set of numbers. Range is the difference between the smallest and biggest number in the list.
+
+61. Write a program to print all prime numbers from 1 to 300. (Use nested loops, break and continue)
+
+62. Write a program to fill the entire screen with a smiling face. The smiling face has an ASCII value 1.
+
+63. Write a program to add first seven terms of the following series using a for loop:
+
+1     2     3
+-  +  -  +  - ......
+1!    2!    3!
+
+64. Write a program to generate all combinations of 1, 2 and 3 using for loop.
+
+65. According to a study, the approximate level of intelligence of a person can be calculated using the following formula:
+
+i = 2 + ( y + 0.5 x )
+
+Write a program, which will produce a table of values of i, y and x, where y varies from 1 to 6, and, for each value of y, x varies from 5.5 to 12.5 in steps of 0.5.
+
+Write a program to produce the following pattaran where number of line entered by keyboard:(Q66-Q75) using for loop
+
+pattern best viewed at in notepad with Font:Lucida console, Font style:Regular and Size:10
+
+66. 
+
+*
+**
+***
+****
+
+67.
+
+   *
+  **
+ ***
+****
+
+68.
+ 
+****
+***
+**
+*
+
+69.
+
+****
+ ***
+  **
+   *
+70.
+
+i.e. if input is 7
+*
+**
+***
+****
+***
+**
+*
+& if input is 8
+*
+**
+***
+****
+****
+***
+**
+*
+
+71.
+i.e. if input is 7
+
+   *
+  **
+ ***
+****
+ ***
+  **
+   *
+
+& if input is 8
+
+   *
+  **
+ ***
+****
+****
+ ***
+  **
+   *
+72.
+i.e. if input is 7
+ 
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+& if input is 8
+ 
+   *
+  ***
+ *****
+*******
+*******
+ *****
+  ***
+   *
+
+
+73.
+
+12345
+6789
+012
+34
+5
+
+74.
+
+i.e. if input is 5
+  1
+ 234
+56789
+ 012
+  3
+
+& if input is 6
+  1
+ 234
+56789
+01234
+ 567
+  8
+
+75.
+
+0
+10
+010
+1010
+
+
+Write a program to produce the following pattaran,where number of line entered by keyboard:(Q76-Q85) using while loop
+
+
+76. 
+
+*
+**
+***
+****
+
+77.
+
+   *
+  **
+ ***
+****
+
+78.
+ 
+****
+***
+**
+*
+
+79.
+
+****
+ ***
+  **
+   *
+80.
+
+i.e. if input is 7
+*
+**
+***
+****
+***
+**
+*
+& if input is 8
+*
+**
+***
+****
+****
+***
+**
+*
+
+81.
+
+
+   *
+  **
+ ***
+****
+ ***
+  **
+   *
+
+& if input is 8
+
+   *
+  **
+ ***
+****
+****
+ ***
+  **
+   *
+
+82.
+ 
+i.e. if input is 7
+ 
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+& if input is 8
+ 
+   *
+  ***
+ *****
+*******
+*******
+ *****
+  ***
+   *
+
+83.
+
+12345
+6789
+012
+34
+5
+
+84.
+
+i.e. if input is 5
+  1
+ 234
+56789
+ 012
+  3
+
+& if input is 6
+  1
+ 234
+56789
+01234
+ 567
+  8
+
+85.
+
+0
+10
+010
+1010
+ 
+86. Write a program to produce the following pattaran:
+
+A B C D E F G F E D C B A+
+A B C D E F   F E D C B A
+A B C D E       E D C B A
+A B C D           D C B A
+A B C               C B A
+A B                   B A
+A                       A
+
+87.Write a program to produce the following pattaran:
+
+*******
+ *****
+  ***
+   *
+  ***
+ *****
+*******
+
+88. Write a program to fill the entire screen with diamond and heart alternatively. The ASCII value for heart is 3 and that of diamond is 4.
+
+89. Write a program to print the multiplication table of the number entered by the user. The table should get displayed in the following form.
+
+29 * 1 = 29
+29 * 2 = 58
+…
+
+90. Write a program to produce the following output where number of line entered by keyboard:
+
+   1
+  2 3
+ 4 5 6
+7 8 9 10
+
+91. Write a program to produce the following output where number of line entered by keyboard:
+
+    1
+   1 1
+  1 2 1
+ 1 3 3 1
+1 4 6 4 1
+
+92. When interest compounds q times per year at an annual rate of r % for n years, the principle p compounds to an amount a as per the following formula
+
+a = p( 1 + r / q )^^nq   //where ^^ is power
+
+Write a program to read 10 sets of p, r, n & q and calculate the corresponding as.
+
+93. Write a program which to find the grace marks for a student using switch. The user should enter the class obtained by the student and the number of subjects he has failed in.
+   - If the student gets first class and the number of subjects he failed in is greater than 3, then he does not get any grace.If the number of subjects he failed in is less than or equal to 3 then the grace is of 5 marks per subject.
+   - If the student gets second class and the number of subjects he failed in is greater than 2, then he does not get any grace. If the number of subjects he failed in is less than or equal to 2 then the grace is of 4 marks per subject.
+   - If the student gets third class and the number of subjects he failed in is greater than 1, then he does not get any grace. If the number of subjects he failed in is equal to 1 then the grace is of 5 marks per subject 
+
+94. let the equation x + y = r represents a circle with centre at origin and radius r. Write a program that reads r from the keyboard and prints the number of points with integer coordinates that lie within the circle.
+
+95. Write a program that, for all positive integers i, j , k, and l from 1 through 1000, finds and prints all combinations of i, j , k, and I such that i + j + k = l and i < j < k < l.
+
+96. Write a program which finds four digit perfect squares where the number represented by the first two digits and the number represented by the last two digits are also perfect squares.
+
+97. Write a program which finds a four digit number AABB which is a perfect square. A and B represent different digits.
+
+98. If a number 972 is entered through the keyboard, your program should print "Nine Seven Two". Write the program such that it does this for any positive integer.
+
+99. If a number 972 is entered through the keyboard, your program should print "Nine hundred Seventy Two". Write the program such that it does this for any positive integer.
+
+100. A positive integer is entered through the keyboard. Alongwith it the base of the numbering system in which you want to convert this number is entered. Write a program to display the number entered, the base, and the converted number. (Hint: Number conversion)
+
+101. Write a programm to store marks of 10 students in array, find average.
+
+102. Write a program to add or subtract 2 3*3 int array where choice is asked from user.
+
+102. write a programm to multiply 2 3*3 matrics.
+
+103. Twenty-five numbers are entered from the keyboard into an array. The number to be searched is entered through the keyboard by the user. Write a program to find if the number to be searched is present in the array and if it is present, display the number of times it appears in the array.
+
+104. Twenty-five numbers are entered from the keyboard into an array. Write a program to find out how many of them are positive, how many are negative, how many are even and how many odd.
+
+105. Write a programm to implement binary search.
+
+106. Write a programm to implement Selection Sort.
+
+107. Write a programm to implement Bubble Sort. 
+
+108. Write a programm to implement Insertion sort.
+
+109. Write a programm to implement mearging of two sorted array.
+
+
+110. Implement the following procedure to generate prime numbers from 1 to 100 into a program. 
+
+step 1 Fill an array num[100] with numbers from 1 to 100
+step 2 Starting with the second entry in the array, set all its multiples to zero.
+step 3 Proceed to the next non-zero element and set all its multiples to zero.
+step 4 Repeat step 3 till you have set up the multiples of all the non-zero elements to zero
+step 5 At the conclusion of step 4, all the non-zero entries left in the array would be prime numbers, 
+so print out these numbers.
+
+111. Write a program to copy the contents of one array into another in the reverse order.
+
+112. If an array arr contains n elements, then write a program to check if arr[0] = arr[n-1], arr[1] = arr[n-2] and so on.
+
+113. Find the smallest number in an array using pointers.
+
+114. The screen is divided into 25 rows and 80 columns. The characters that are displayed on the screen are stored in a special memory called VDU memory (not to be confused with ordinary memory). Each character displayed on the screen occupies two bytes in VDU memory. The first of these bytes contains the ASCII value of the character being displayed, whereas, the second byte contains the colour in which the character is displayed. For example, the ASCII value of the character present on zeroth row and zeroth column on the screen is stored atlocation number 0xB8000000. Therefore the colour of this character would be present at location number 0xB8000000 + 1. Similarly ASCII value of character in row 0, col 1 will be at location 0xB8000000 + 2, and its colour at 0xB8000000 + 3. With this knowledge write a program to print any string of your chice with attribute of your choice .(Without printf()!!!!!!!!!)
+
+attribute bits are as followes
+
+
+WXXXYZZZ
+W      Foreground Blink or (alternate) Background bright 
+X      Background color 
+Y      Foreground Bright or (alternate) Alternate character set 
+Z      Foreground color
+
+115. Write a program to pick up the largest number from any 5 row by 5 column matrix.
+
+116. Write a program to obtain transpose of a 4 x 4 matrix. The transpose of a matrix is obtained by exchanging the elements of each row with the elements of the corresponding column.
+
+117. Write a program to sort all the elements of a 4 x 4 matrix.
+
+118. The X and Y coordinates of 10 different points are entered through the keyboard. Write a program to find the distance of last point from the first point (sum of distance between consecutive points).
+
+119. The first difference D1 of a sequence A of N elements is obtained by subtracting each element, except the last, from the next element in the array. The second difference D2 is defined as the first difference of Dl, and so on. For example, if
+
+A: 1,2,4,7,11,16, 22, then
+D1: 1,2,3,4, 5, 6
+D2:  1,1,1,1,  1
+D3:   0,0,0, 0
+
+Write a program that reads a sequence of 25 elements in an array and finds its first, second, and third differences.
+
+120. A common problem in statistics is that of generating frequency distribution of the given data. Assuming that the data consists of 50 positive integers in the range 1 to 25, write a program that prints the number of times each integer occurs in the data. 
+
+121. A square matrix, that is, one having the same number of rows and columns, is called a diagonal matrix if its only non-zero elements are on the diagonal from upper left to lower right. It is called upper triangular, if all elements below the diagonal are zeroes, and lower triangular, if all elements above the diagonal are zeroes. Write a program that reads a matrix and determines if it is one of these three special matrices.
+
+122. The Miniaturization Unlimited sells 5 types of memory chips through its retail outlets in 10 cities. The weekly sales of the company are stored i n a 5 x l 0 x 7 array SALES such that SALES( L, K, M ) denotes the sales of the L* memory chip in the K city on the M day of the week. Write a program that computes: 
+
+(a) The total weekly sale of each type of memory chip
+(b) The total weekly sale in each city and
+(c) The average daily sale of the company
+
+123. Without using any string.h library functions Write a programm to finds length of a string.
+
+124. Without using any string.h library functions Write a programm to converts a string to lowercase.
+
+125. Without using any string.h library functions Write a programm to converts a string to uppercase.
+
+126. Without using any string.h library functions Write a programm to appends one string at the end of another
+
+127. Without using any string.h library functions Write a programm to appends first n characters of a string at the end of another
+
+128. Without using any string.h library functions Write a programm to copies a string into another
+
+129. Without using any string.h library functions Write a programm to copies first n characters of one string into another
+
+130. Without using any string.h library functions Write a programm to compares two strings charcter by charcter.
+
+131. Without using any string.h library functions Write a programm to compares first n characters of two strings.
+
+132. Without using any string.h library functions Write a programm to Compares two strings without regard to case 
+
+133. Without using any string.h library functions Write a programm to finds first occurrence of a given character in a string.
+
+134. Without using any string.h library functions Write a programm to finds last occurrence of a given character in a string.
+
+135. Without using any string.h library functions Write a programm to finds first occurrence of a given sub string in another string
+
+136. Without using any string.h library functions Write a programm to sets all characters of string to a given character
+
+137. Without using any string.h library functions Write a programm to sets first n characters of a string to a given character.
+
+138. Without using any string.h library functions Write a programm to reverses a string.
+
+139. Write a program to count noumber of words in a string.
+
+140. Write a program that extracts part of the given string from the specified position. For example, if the sting is "Working with strings is fun", then if from position 4, 4 characters are to be extracted then the program should return string as "king". Moreover, if the position from where the string is to be extracted is given and the number of characters to be extracted is 0 then the program should extract entire string from the specified position. 
+
+142. Write a program that converts a string like "124" to an integer 124.
+
+143. Write a program that replaces two or more consecutive blanks in a string by a single blank. For example, if the input is 
+Grim   return  to     the planet         of      apes!!
+the output should be
+Grim return to the planet of apes!!
+
+144. Write a program to sort a set of names stored in an array in alphabetical order.
+
+145. Write a program to reverse the strings stored in the following array of pointers to strings:
+
+char *s[ ] = {
+"To err is human...",
+"But to really mess things up...",
+"One needs to know C!!"
+} ;
+
+146. Develop a program that receives the month and year from the keyboard as integers and prints the calendar in the following format.
+
+     September 2004
+Mon Tue Wed Thu Fri Sat Sun
+          1  2   3   4   5
+ 6   7    8  9  10  11  12
+13  14   15 16  17  18  19
+20  21   22 23  24  25  26
+27  28   29 30
+Note that according to the Gregorian calendar 01/01/1900 was Monday. With this as the base the calendar should be generated.
+
+147. Write a program to delete all vowels from a sentence. Assume that the sentence is not more than 80 characters long.
+
+148. Write a program that takes a set of names of individuals and abbreviates the first, middle and other names except the last name by their first letter.
+
+149. Write a program to count the number of occurrences of any two vowels in succession in a line of text. For example, in the sentence
+“Pleases read this application and give me gratuity”
+such occurrences are ea, ea, ui.
+
+150. Write a program to encode the following string such that it gets converted into an unrecognizable form. Also write a decode function to get back the original string.
+
+"Man's reach must always exceed his grasp.... or what is the heaven for?"
+
+151. Create a structure to specify data on students given below:
+Roll number, Name, Department, Course, Year of joining
+Assume that there are not more than 450 students in the collage.
+(a) Write a function to print names of all students who joined in a particular year.
+(b) Write a function to print the data of a student whose roll number is given.
+
+152. Create a structure to specify data of customers in a bank. The data to be stored is: 
+Account number, Name, Balance in account. 
+Assume maximum of 200 customers in the bank.
+(a) Write a function to print the Account number and name of each customer with balance below Rs. 100.
+(b) If a customer request for withdrawal or deposit, it is given in the form:
+Acct. no, amount, code (1 for deposit, 0 for withdrawal) Write a program to give a message, “The balance is insufficient for the specified withdrawal”.
+
+153. (c) An automobile company has serial number for engine parts starting from AA0 to FF9. The other characteristics of parts to be specified in a structure are: Year of manufacture, material and quantity manufactured.
+(a) Specify a structure to store information corresponding to a part.
+(b) Write a program to retrieve information on parts with serial numbers between BB1 and CC6.
+
+154. A record contains name of cricketer, his age, number of test matches that he has played and the average runs that he has scored in each test match. Create an array of structure to hold records of 20 such cricketer and then write a program to read these records and arrange them in ascending order by average runs. Use the qusort( ) standard library function.
+
+155. Write a menu driven program that depicts the working of a library. The menu options should be:
+1. Add book information
+2. Display book information
+3. List all books of given author
+4. List the title of specified book
+5. List the count of books in the library
+6. List the books in the order of accession number
+7. Exit
+
+Create a structure called library to hold accession number, title of the book, author name, price of the book, and flag indicating whether book is issued or not.
+
+156. Suppose a file contains student’s records with each record containing name and age of a student. Write a program to read these records and display them.
+
+157. Write a program to copy one file to another. While doing so replace all lowercase characters to their equivalent uppercase characters.
+
+158. Write a program that merges lines alternately from two files and writes the results to new file. If one file has less number of lines than the other, the remaining lines from the larger file should be simply copied into the target file.
+
+ Write a program to encrypt/decrypt a file using: (159-160)
+
+159. An offset cipher: In an offset cipher each character from the source file is offset with a fixed value and then written to the target file. For example, if character read from the source file is ‘A’, then convert this into a new character by offsetting ‘A’ by a fixed value, say 128, and then writing the new character to the target file.
+
+160. A substitution cipher: In this each character read from the source file is substituted by a corresponding predetermined character and this character is written to the target file.For example, if character ‘A’ is read from the source file, and if we have decided that every ‘A’ is to be substituted by ‘!’, then a ‘!’ would be written to the target file in place of every ‘A’ Similarly, every ‘B’ would be 
+substituted by ‘5’ and so on.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+flow chart should be thare in LAB Record for Q.1-Q.18, Q.23-Q.25,Q.66-Q.75/------------total 31.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
